@@ -1,0 +1,72 @@
+@import url('./globalStyles.css');
+
+ .returning-customer{
+ 	padding-top: 6rem;
+	 font-size: 20px;
+ }
+ .container .link{
+	 color: var(--Tertiary);
+	 text-decoration: underline;
+ }
+ .container .row .col-lg-5{
+	 box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+	 padding-top: 30px;
+ }
+ .container .row .col-lg-5 form label{
+	font-size: 20px;
+	margin-top: 15px;
+ }
+ .container .row .col-lg-5 form select,
+ .container .row .col-lg-5 form  input{
+	 outline: none;
+		border:2.5px solid var(--P-Dark);
+		padding: 7px;
+ }
+ .container .row .col-lg-5 form  input:focus{
+	 border: 2.5px solid var(--Tertiary);
+ }
+ .container .row .col-lg-5 form .checkboxs a{
+		color: var(--Tertiary);
+		font-weight: 600;
+ }
+
+ textarea{
+	 height: 10rem;
+	 border: 2px solid var(--P-Dark);
+	 padding: 5px 10px;
+ }
+ 
+
+th, td {
+    text-align: center;
+    padding: 1.5rem;
+}
+
+
+th {
+    background-color: var(--S-Light);
+    color: white;
+}
+.payment-methods>div{
+	padding: 0px 20px 20px 0;
+}
+.payment-methods a{
+	font-family: 'Spirax';
+	color: var(--P-Dark);
+	text-decoration: none !important;
+	font-size: 25px;
+}
+.payment-methods i{
+	color: var(--Tertiary);
+}
+.customer-order input{
+	border: none;
+	background-color: var(--Tertiary);
+	color: white;
+	font-weight: 600;
+	outline: none;
+	transition: all .5s ease;
+}
+.customer-order input:active{
+	transform: scale(.9);
+}

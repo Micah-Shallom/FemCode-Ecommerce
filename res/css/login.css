@@ -1,0 +1,41 @@
+@import url('./globalStyles.css');
+
+.container{
+	margin-top:100px;
+}
+
+.container .row .login-wrapper{
+	background-color: var(--Secondary);
+	padding: 100px 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+.container .row .login-wrapper a{
+	background-color: var(--Primary);
+	color: white;
+	margin-top: 50px;
+}
+.container .row .sign-in{
+	padding: 20px;
+	position: relative;
+}
+
+.container .row .sign-in form input{
+	border: 2px solid #ccc;
+	outline: 0 !important; 
+}
+.container .row .sign-in .log-in{
+	outline: none;
+	background-color: var(--Tertiary);
+	border: none;
+	color: white;
+	font-size: 22px;
+	padding: 8px;
+}
+
+.container .row .sign-in .log-in .text-right i{
+	cursor: pointer;
+}
+
